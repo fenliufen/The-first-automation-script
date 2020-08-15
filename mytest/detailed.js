@@ -1,20 +1,21 @@
-var detailed = function(pmcode, date) {
 
-    sql = "insert into bms.EF_AP_FEE_DETAIL\n" +
+var detailed=function (pmcode,date){
+
+   var sql="insert into bms.EF_AP_FEE_DETAIL\n" +
         "select \n" +
         "bms.seq_EF_AP_FEE_DETAIL.nextval,\n" +
-        "'" + pmcode + "',\n" +
+        "'"+pmcode+"',\n" +
         "a.ORDER_SOURCE,\n" +
-        "to_date('2020-08-11','yyyy-mm-dd'),\n" +
+        "to_date('2020-08-14','yyyy-mm-dd'),\n" +
         "a.BUSINESS_TYPE,\n" +
         "a.FEE_CODE,\n" +
         "a.FEE_LINE_NO,\n" +
         "a.FEE_SOURCE_NO,\n" +
         "a.COMBIN_LINE_NO,\n" +
-        "'02',\n" + //a.ORDER_TYPE
-        "a.FEE_ORDER_TYPE,\n" +
+        "a.ORDER_TYPE,\n" +                                    //a.ORDER_TYPE   业务小类
+        "a.FEE_ORDER_TYPE,\n" +                                //a.FEE_ORDER_TYPE  业务大类
         "a.CLEARING_CUSTOMER_CODE,\n" +
-        "a.CLEARING_SUPPLIER_CODE,\n" +
+        "a.CLEARING_SUPPLIER_CODE,\n" +                                      //a.CLEARING_SUPPLIER_CODE   供应商编码
         "a.WH_CODE,\n" +
         "a.SKU_LINE_NO,\n" +
         "a.SKU_CODE,\n" +
@@ -83,15 +84,15 @@ var detailed = function(pmcode, date) {
         "0\n" +
         "from bms.ef_ap_fee_detail a where a.head_pm_code in (\n" +
         "select b.pm_code from bms.ef_ap_fee_header b where b.supplier_code_settlement='HC0060881' and b.order_no in (\n" +
-        "'" + date + "'\n" +
-        ");\n";
+        "'"+date+"'\n" +
+        "));"
 
 
     return sql
 
-};
+}
 
 
 
 
-exports.detailed = detailed
+exports.detailed=detailed

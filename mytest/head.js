@@ -1,16 +1,17 @@
-var myheadsql = function(numbers) {
+
+var myheadsql=function (numbers){
 
 
-    var sql = "insert into ef_ap_fee_header\n" +
+    var sql="insert into ef_ap_fee_header\n" +
         "select \n" +
         "bms.seq_EF_AP_FEE_HEADER.nextval+1,\n" +
-        "sys_guid()||'-'||rownum,\n" +
+        "sys_guid(),\n" +
         "a.CUSTOMER_NO,\n" +
         "a.ORDER_NO,\n" +
         "a.ETDO_NO,\n" +
         "a.ANNTO_ORDER_NO,\n" +
         "a.CUSTOMER_CODE,\n" +
-        "a.SUPPLIER_CODE,\n" +
+        "a.SUPPLIER_CODE,\n" +                     //SUPPLIER_CODE   供应商编码
         "a.BURSAR_BODY,\n" +
         "a.COMPANY_CODE,\n" +
         "a.SITE_CODE,\n" +
@@ -47,13 +48,15 @@ var myheadsql = function(numbers) {
         "a.ETTA_CONTRACT_NO,\n" +
         "a.SOURCE_JOB_ID\n" +
         "from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (\n" +
-        "'" + numbers + "'\n" +
+        "'"+numbers+"'\n" +
         ");\n";
 
 
-    return sql
+    return  sql
 
 };
 
 
-exports.myheadsql = myheadsql;
+exports.myheadsql=myheadsql;
+
+

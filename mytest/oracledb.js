@@ -37,7 +37,7 @@ var query = function(sql,callback){
             });
         }
     );
-}
+};
 
 function doRelease(connection) {
     connection.close(

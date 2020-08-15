@@ -71,10 +71,3 @@ class deletesql {
 
 
 var array = fs.readFileSync('./date.txt').toString().split("\r\n");
-
-
-const SUCCESS=new deletesql();
-
-
-SUCCESS.apdetail(12);
-

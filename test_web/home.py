@@ -25,13 +25,11 @@ class Home(Base):
         if len(list)==0:
             print('数据为空')
         else:
+            print(f'总共有{len(list)}数据')
             for i in list:
                 text = i.text
                 if val in text:
                     print('数据一致')
-
-
-
         return self
 
 
@@ -44,12 +42,11 @@ class Home(Base):
         list=self.webdriver.find_elements_by_css_selector('.list li')
         lens=len(list)
         assert lens==val
-
         return self
 
 
 
-    #点击标签除全部文章和其他的
+    #点击标签除全部文章
     def goto_webtest(self,index,val):
         li = self.webdriver.find_elements_by_css_selector('.daohang-list li')
         li[index].click()
@@ -59,6 +56,7 @@ class Home(Base):
         if len(list)==0:
             print('数据为空')
         else:
+            print(f'总共有{len(list)}数据')
             for i in list:
                 text = i.text
                 if val in text:

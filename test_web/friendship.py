@@ -28,12 +28,13 @@ class Friendship(Base):
                     if text == urlname:
                         print(text)
 
-            print(text)
+            else:
+                print(text)
 
 
         except NoAlertPresentException:
             print('用例执行失败')
 
 
-        return self
 
+        return

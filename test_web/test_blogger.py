@@ -67,7 +67,7 @@ if __name__=='__main__':
 
 
 
-#先在谷歌bin目录执行下面命令，开启一个本地端口好复用游览器
+#先在谷歌目录执行下面命令，开启一个本地端口好复用游览器
 #chrome --remote-debugging-port=9222
 #pytest test_blogger.py  -v  --alluredir ./result/  执行用例生成测试套件
 # allure generate ./result/ -o ./report/ --clean    生成html文件测试报告

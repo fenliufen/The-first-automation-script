@@ -11,7 +11,7 @@ var myheadsql=function (numbers){
         "a.ETDO_NO,\n" +
         "a.ANNTO_ORDER_NO,\n" +
         "a.CUSTOMER_CODE,\n" +
-        "a.SUPPLIER_CODE,\n" +                     //SUPPLIER_CODE   供应商编码
+        "a.SUPPLIER_CODE,\n" +                     //a.SUPPLIER_CODE   供应商编码   //HC20046750 增辉     L2010109高*远-皖A7L726
         "a.BURSAR_BODY,\n" +
         "a.COMPANY_CODE,\n" +
         "a.SITE_CODE,\n" +

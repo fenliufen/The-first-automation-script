@@ -44,7 +44,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422377752'
+'Y20060422389825'
 );
 
 insert into ef_ap_fee_header
@@ -93,7 +93,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422378317'
+'Y20060522396797'
 );
 
 insert into ef_ap_fee_header
@@ -142,7 +142,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422378316'
+'Y20060422385255'
 );
 
 insert into ef_ap_fee_header
@@ -191,7 +191,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422375479'
+''
 );
 
 insert into ef_ap_fee_header
@@ -240,7 +240,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422375483'
+'Y20060422389824'
 );
 
 insert into ef_ap_fee_header
@@ -289,7 +289,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422375482'
+'Y20060422389844'
 );
 
 insert into ef_ap_fee_header
@@ -338,7 +338,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422378572'
+'Y20060422388106'
 );
 
 insert into ef_ap_fee_header
@@ -387,7 +387,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422378526'
+'Y20060422373330'
 );
 
 insert into ef_ap_fee_header
@@ -436,7 +436,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422375474'
+'Y20060422379770'
 );
 
 insert into ef_ap_fee_header
@@ -485,7 +485,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422378652'
+'Y20060522397274'
 );
 
 insert into ef_ap_fee_header
@@ -534,7 +534,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422377014'
+'Y20060522397203'
 );
 
 insert into ef_ap_fee_header
@@ -583,7 +583,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422378656'
+'Y20060522397260'
 );
 
 insert into ef_ap_fee_header
@@ -632,7 +632,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422376649'
+'Y20060522397271'
 );
 
 insert into ef_ap_fee_header
@@ -681,7 +681,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422374246'
+'Y20060522397191'
 );
 
 insert into ef_ap_fee_header
@@ -730,7 +730,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060322372092'
+'Y20060522397252'
 );
 
 insert into ef_ap_fee_header
@@ -779,7 +779,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422378999'
+'Y20060522397253'
 );
 
 insert into ef_ap_fee_header
@@ -828,7 +828,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422380234'
+'Y20060522397247'
 );
 
 insert into ef_ap_fee_header
@@ -877,7 +877,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422380206'
+'Y20060522397241'
 );
 
 insert into ef_ap_fee_header
@@ -926,7 +926,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422375896'
+'Y20060522397242'
 );
 
 insert into ef_ap_fee_header
@@ -975,7 +975,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422375897'
+'Y20060522397246'
 );
 
 insert into ef_ap_fee_header
@@ -1024,7 +1024,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422375895'
+'Y20060522397236'
 );
 
 insert into ef_ap_fee_header
@@ -1073,7 +1073,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422375884'
+'Y20060522397238'
 );
 
 insert into ef_ap_fee_header
@@ -1122,7 +1122,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422378982'
+'Y20060522397216'
 );
 
 insert into ef_ap_fee_header
@@ -1171,7 +1171,7 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422382027'
+'Y20060522397222'
 );
 
 insert into ef_ap_fee_header
@@ -1220,300 +1220,6 @@ a.ETTA_RATE_MILEAGE,
 a.ETTA_CONTRACT_NO,
 a.SOURCE_JOB_ID
 from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422382159'
-);
-
-insert into ef_ap_fee_header
-select 
-bms.seq_EF_AP_FEE_HEADER.nextval+1,
-sys_guid(),
-a.CUSTOMER_NO,
-a.ORDER_NO,
-a.ETDO_NO,
-a.ANNTO_ORDER_NO,
-a.CUSTOMER_CODE,
-a.SUPPLIER_CODE,
-a.BURSAR_BODY,
-a.COMPANY_CODE,
-a.SITE_CODE,
-a.BULK,
-a.GROSS_WEIGHT,
-a.ETCD_WEIGHT,
-a.QUANTITY,
-a.REMARK,
-a.EMPTY_FLAG,
-a.REC_VER,
-a.REC_STATUS,
-a.CREATOR,
-sysdate,
-a.MODIFIER,
-sysdate,
-a.SUB_STR1,
-a.SUB_STR2,
-a.SUB_STR3,
-a.SUB_STR4,
-a.SUB_NUM1,
-a.SUB_NUM2,
-a.SUB_NUM3,
-a.SUB_NUM4,
-a.SUB_DATE1,
-a.SUB_DATE2,
-a.SUB_DATE3,
-a.SUB_DATE4,
-1,
-'HC0066728',
-a.ETTA_ORDER_DATE,
-a.FROM_ADDRESS_NAME,
-a.TO_ADDRESS_NAME,
-a.ETTA_RATE_MILEAGE,
-a.ETTA_CONTRACT_NO,
-a.SOURCE_JOB_ID
-from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422382229'
-);
-
-insert into ef_ap_fee_header
-select 
-bms.seq_EF_AP_FEE_HEADER.nextval+1,
-sys_guid(),
-a.CUSTOMER_NO,
-a.ORDER_NO,
-a.ETDO_NO,
-a.ANNTO_ORDER_NO,
-a.CUSTOMER_CODE,
-a.SUPPLIER_CODE,
-a.BURSAR_BODY,
-a.COMPANY_CODE,
-a.SITE_CODE,
-a.BULK,
-a.GROSS_WEIGHT,
-a.ETCD_WEIGHT,
-a.QUANTITY,
-a.REMARK,
-a.EMPTY_FLAG,
-a.REC_VER,
-a.REC_STATUS,
-a.CREATOR,
-sysdate,
-a.MODIFIER,
-sysdate,
-a.SUB_STR1,
-a.SUB_STR2,
-a.SUB_STR3,
-a.SUB_STR4,
-a.SUB_NUM1,
-a.SUB_NUM2,
-a.SUB_NUM3,
-a.SUB_NUM4,
-a.SUB_DATE1,
-a.SUB_DATE2,
-a.SUB_DATE3,
-a.SUB_DATE4,
-1,
-'HC0066728',
-a.ETTA_ORDER_DATE,
-a.FROM_ADDRESS_NAME,
-a.TO_ADDRESS_NAME,
-a.ETTA_RATE_MILEAGE,
-a.ETTA_CONTRACT_NO,
-a.SOURCE_JOB_ID
-from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422382183'
-);
-
-insert into ef_ap_fee_header
-select 
-bms.seq_EF_AP_FEE_HEADER.nextval+1,
-sys_guid(),
-a.CUSTOMER_NO,
-a.ORDER_NO,
-a.ETDO_NO,
-a.ANNTO_ORDER_NO,
-a.CUSTOMER_CODE,
-a.SUPPLIER_CODE,
-a.BURSAR_BODY,
-a.COMPANY_CODE,
-a.SITE_CODE,
-a.BULK,
-a.GROSS_WEIGHT,
-a.ETCD_WEIGHT,
-a.QUANTITY,
-a.REMARK,
-a.EMPTY_FLAG,
-a.REC_VER,
-a.REC_STATUS,
-a.CREATOR,
-sysdate,
-a.MODIFIER,
-sysdate,
-a.SUB_STR1,
-a.SUB_STR2,
-a.SUB_STR3,
-a.SUB_STR4,
-a.SUB_NUM1,
-a.SUB_NUM2,
-a.SUB_NUM3,
-a.SUB_NUM4,
-a.SUB_DATE1,
-a.SUB_DATE2,
-a.SUB_DATE3,
-a.SUB_DATE4,
-1,
-'HC0066728',
-a.ETTA_ORDER_DATE,
-a.FROM_ADDRESS_NAME,
-a.TO_ADDRESS_NAME,
-a.ETTA_RATE_MILEAGE,
-a.ETTA_CONTRACT_NO,
-a.SOURCE_JOB_ID
-from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422382255'
-);
-
-insert into ef_ap_fee_header
-select 
-bms.seq_EF_AP_FEE_HEADER.nextval+1,
-sys_guid(),
-a.CUSTOMER_NO,
-a.ORDER_NO,
-a.ETDO_NO,
-a.ANNTO_ORDER_NO,
-a.CUSTOMER_CODE,
-a.SUPPLIER_CODE,
-a.BURSAR_BODY,
-a.COMPANY_CODE,
-a.SITE_CODE,
-a.BULK,
-a.GROSS_WEIGHT,
-a.ETCD_WEIGHT,
-a.QUANTITY,
-a.REMARK,
-a.EMPTY_FLAG,
-a.REC_VER,
-a.REC_STATUS,
-a.CREATOR,
-sysdate,
-a.MODIFIER,
-sysdate,
-a.SUB_STR1,
-a.SUB_STR2,
-a.SUB_STR3,
-a.SUB_STR4,
-a.SUB_NUM1,
-a.SUB_NUM2,
-a.SUB_NUM3,
-a.SUB_NUM4,
-a.SUB_DATE1,
-a.SUB_DATE2,
-a.SUB_DATE3,
-a.SUB_DATE4,
-1,
-'HC0066728',
-a.ETTA_ORDER_DATE,
-a.FROM_ADDRESS_NAME,
-a.TO_ADDRESS_NAME,
-a.ETTA_RATE_MILEAGE,
-a.ETTA_CONTRACT_NO,
-a.SOURCE_JOB_ID
-from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422382221'
-);
-
-insert into ef_ap_fee_header
-select 
-bms.seq_EF_AP_FEE_HEADER.nextval+1,
-sys_guid(),
-a.CUSTOMER_NO,
-a.ORDER_NO,
-a.ETDO_NO,
-a.ANNTO_ORDER_NO,
-a.CUSTOMER_CODE,
-a.SUPPLIER_CODE,
-a.BURSAR_BODY,
-a.COMPANY_CODE,
-a.SITE_CODE,
-a.BULK,
-a.GROSS_WEIGHT,
-a.ETCD_WEIGHT,
-a.QUANTITY,
-a.REMARK,
-a.EMPTY_FLAG,
-a.REC_VER,
-a.REC_STATUS,
-a.CREATOR,
-sysdate,
-a.MODIFIER,
-sysdate,
-a.SUB_STR1,
-a.SUB_STR2,
-a.SUB_STR3,
-a.SUB_STR4,
-a.SUB_NUM1,
-a.SUB_NUM2,
-a.SUB_NUM3,
-a.SUB_NUM4,
-a.SUB_DATE1,
-a.SUB_DATE2,
-a.SUB_DATE3,
-a.SUB_DATE4,
-1,
-'HC0066728',
-a.ETTA_ORDER_DATE,
-a.FROM_ADDRESS_NAME,
-a.TO_ADDRESS_NAME,
-a.ETTA_RATE_MILEAGE,
-a.ETTA_CONTRACT_NO,
-a.SOURCE_JOB_ID
-from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20060422382531'
-);
-
-insert into ef_ap_fee_header
-select 
-bms.seq_EF_AP_FEE_HEADER.nextval+1,
-sys_guid(),
-a.CUSTOMER_NO,
-a.ORDER_NO,
-a.ETDO_NO,
-a.ANNTO_ORDER_NO,
-a.CUSTOMER_CODE,
-a.SUPPLIER_CODE,
-a.BURSAR_BODY,
-a.COMPANY_CODE,
-a.SITE_CODE,
-a.BULK,
-a.GROSS_WEIGHT,
-a.ETCD_WEIGHT,
-a.QUANTITY,
-a.REMARK,
-a.EMPTY_FLAG,
-a.REC_VER,
-a.REC_STATUS,
-a.CREATOR,
-sysdate,
-a.MODIFIER,
-sysdate,
-a.SUB_STR1,
-a.SUB_STR2,
-a.SUB_STR3,
-a.SUB_STR4,
-a.SUB_NUM1,
-a.SUB_NUM2,
-a.SUB_NUM3,
-a.SUB_NUM4,
-a.SUB_DATE1,
-a.SUB_DATE2,
-a.SUB_DATE3,
-a.SUB_DATE4,
-1,
-'HC0066728',
-a.ETTA_ORDER_DATE,
-a.FROM_ADDRESS_NAME,
-a.TO_ADDRESS_NAME,
-a.ETTA_RATE_MILEAGE,
-a.ETTA_CONTRACT_NO,
-a.SOURCE_JOB_ID
-from bms.ef_ap_fee_header a where a.supplier_code_settlement='HC0060881' and a.order_no in (
-'Y20052922254782'
+'Y20060522397605'
 );
 

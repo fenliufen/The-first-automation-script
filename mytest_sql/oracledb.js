@@ -16,6 +16,9 @@ var query = function(sql,callback){
             }/*else{
                 console.log("连接成功");
             }*/
+
+
+
             connection.execute(sql, [], function (err, result)
             {
                 if (err)
@@ -25,7 +28,7 @@ var query = function(sql,callback){
                     return;
                 }
                 //console.log(result.metaData);
-                callback(result.rows.map((v)=>
+                callback((result.rows || []).map((v)=>
                 {
                     return result.metaData.reduce((p, key, i)=>
                     {
@@ -37,7 +40,7 @@ var query = function(sql,callback){
             });
         }
     );
-};
+}
 
 function doRelease(connection) {
     connection.close(

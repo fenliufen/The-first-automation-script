@@ -6,7 +6,7 @@ var detailed=function (pmcode,date){
         "bms.seq_EF_AP_FEE_DETAIL.nextval,\n" +
         "'"+pmcode+"',\n" +
         "a.ORDER_SOURCE,\n" +
-        "to_date('2020-08-14','yyyy-mm-dd'),\n" +
+        "to_date('2020-08-18','yyyy-mm-dd'),\n" +
         "a.BUSINESS_TYPE,\n" +
         "a.FEE_CODE,\n" +
         "a.FEE_LINE_NO,\n" +

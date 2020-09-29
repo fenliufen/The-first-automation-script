@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-T1BIRBC",
+    "children" : [ {
+      "name" : "20680-MainThread",
+      "children" : [ {
+        "name" : "test_testcase2",
+        "uid" : "1e67030824d306a9",
+        "parentUid" : "a3b70fd4998104ae23652ee994810a6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601388120205,
+          "stop" : 1601388120206,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase1",
+        "uid" : "e252874e41f8d170",
+        "parentUid" : "a3b70fd4998104ae23652ee994810a6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601388119370,
+          "stop" : 1601388119989,
+          "duration" : 619
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a3b70fd4998104ae23652ee994810a6e"
+    } ],
+    "uid" : "0c1c725a56564ac30d32eb23f55add95"
+  } ]
+}

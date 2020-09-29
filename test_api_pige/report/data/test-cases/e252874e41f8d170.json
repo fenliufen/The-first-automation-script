@@ -1,0 +1,90 @@
+{
+  "uid" : "e252874e41f8d170",
+  "name" : "testcase1",
+  "fullName" : "test_apics.TestCase#testcase1",
+  "historyId" : "548dc4b634edc25f2bd8ee533655d8d6",
+  "time" : {
+    "start" : 1601388119370,
+    "stop" : 1601388119989,
+    "duration" : 619
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1601388118494,
+      "stop" : 1601388119017,
+      "duration" : 523
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3bccaae23dfc08bc",
+      "name" : "stdout",
+      "source" : "3bccaae23dfc08bc.txt",
+      "type" : "text/plain",
+      "size" : 60
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "添加部门"
+  }, {
+    "name" : "feature",
+    "value" : "api测试"
+  }, {
+    "name" : "suite",
+    "value" : "test_apics"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T1BIRBC"
+  }, {
+    "name" : "thread",
+    "value" : "20680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_apics"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e252874e41f8d170.json",
+  "parameterValues" : [ ]
+}

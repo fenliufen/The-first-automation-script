@@ -39,11 +39,11 @@ class TestCase():
 
     @allure.story('日志文章数据测试')
     def testcase5(self):
-        self.home.goto_journal().goto_complete(13)
+        self.home.goto_journal().goto_complete(17)
 
     @allure.story('动态数据测试核对')
     def testcase6(self):
-       self.home.goto_journal().goto_dynamic().goto_V_date(25)
+       self.home.goto_journal().goto_dynamic().goto_V_date(30)
 
     @allure.story('关于我留言模块功能测试')
     @pytest.mark.parametrize('name,mailbox,url,msg',[('小小','1607187254@qq.com','www.baidu','最近没看到你更新博客'),('','1607187254@qq.com','www.baidu','博主很帅'),

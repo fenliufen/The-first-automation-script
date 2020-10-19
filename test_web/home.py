@@ -5,7 +5,7 @@ from .journal import Journal
 
 
 class Home(Base):
-    base_url = 'http://112.74.38.68:8080/home'
+    base_url = 'http://112.74.38.68:81/home'
 
 
     #输入框输入条件

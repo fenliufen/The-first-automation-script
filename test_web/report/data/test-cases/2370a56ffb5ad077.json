@@ -1,0 +1,132 @@
+{
+  "uid" : "2370a56ffb5ad077",
+  "name" : "testcase3[5-程序算法]",
+  "fullName" : "test_blogger.TestCase#testcase3",
+  "historyId" : "0bb6e9dc53cba66b233550709b221bcd",
+  "time" : {
+    "start" : 1603203288870,
+    "stop" : 1603203301083,
+    "duration" : 12213
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1603203240236,
+      "stop" : 1603203242028,
+      "duration" : 1792
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1603203239860,
+      "stop" : 1603203240235,
+      "duration" : 375
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a4d817c1bfc37dfd",
+      "name" : "5.png",
+      "source" : "a4d817c1bfc37dfd.png",
+      "type" : "image/png",
+      "size" : 1258164
+    }, {
+      "uid" : "c105995957821a19",
+      "name" : "stdout",
+      "source" : "c105995957821a19.txt",
+      "type" : "text/plain",
+      "size" : 13
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1603203481971,
+      "stop" : 1603203483979,
+      "duration" : 2008
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "导航栏页签测试，并筛选出数据"
+  }, {
+    "name" : "feature",
+    "value" : "个人博客测试用例执行情况"
+  }, {
+    "name" : "suite",
+    "value" : "test_blogger"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T1BIRBC"
+  }, {
+    "name" : "thread",
+    "value" : "17836-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_blogger"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "c",
+    "value" : "5"
+  }, {
+    "name" : "d",
+    "value" : "'程序算法'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2370a56ffb5ad077.json",
+  "parameterValues" : [ "5", "'程序算法'" ]
+}

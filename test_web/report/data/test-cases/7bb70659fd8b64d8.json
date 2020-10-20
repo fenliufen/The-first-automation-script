@@ -1,0 +1,141 @@
+{
+  "uid" : "7bb70659fd8b64d8",
+  "name" : "testcase1[系统-操作系统]",
+  "fullName" : "test_blogger.TestCase#testcase1",
+  "historyId" : "045472180e3ebce31fc4a4d2dd2e3b92",
+  "time" : {
+    "start" : 1603203250457,
+    "stop" : 1603203254484,
+    "duration" : 4027
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1603203240236,
+      "stop" : 1603203242028,
+      "duration" : 1792
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1603203239860,
+      "stop" : 1603203240235,
+      "duration" : 375
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "617ace8ffdfa0639",
+      "name" : "操作系统.png",
+      "source" : "617ace8ffdfa0639.png",
+      "type" : "image/png",
+      "size" : 771289
+    }, {
+      "uid" : "8fad2999ac452cb9",
+      "name" : "stdout",
+      "source" : "8fad2999ac452cb9.txt",
+      "type" : "text/plain",
+      "size" : 43
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1603203481971,
+      "stop" : 1603203483979,
+      "duration" : 2008
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "个人博客测试用例执行情况"
+  }, {
+    "name" : "story",
+    "value" : "模糊查询相关的数据并且断言"
+  }, {
+    "name" : "suite",
+    "value" : "test_blogger"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T1BIRBC"
+  }, {
+    "name" : "thread",
+    "value" : "17836-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_blogger"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "'系统'"
+  }, {
+    "name" : "b",
+    "value" : "'操作系统'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3abdee7d3a0d93f9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".doahang-tlter label input[type='text']\"}\n  (Session info: chrome=84.0.4147.125)",
+      "time" : {
+        "start" : 1603203123061,
+        "stop" : 1603203133120,
+        "duration" : 10059
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7bb70659fd8b64d8.json",
+  "parameterValues" : [ "'系统'", "'操作系统'" ]
+}

@@ -1,5 +1,5 @@
-from .base import Base
-from .home import Home
+from .page.base import Base
+from .page.home import Home
 import allure
 import pytest
 
@@ -22,7 +22,7 @@ class TestCase():
 
     @allure.story('点击全部文章，并筛选出数据')
     def testcase2(self):
-        self.home.goto_complete(8)
+        self.home.goto_complete(12)
 
     @pytest.mark.parametrize('c,d',[(1,'网站测试'),(2,'网站开发'),(3,'操作系统'),(4,'深度学习'),(5,'程序算法'),(6,'其他')])
     @allure.story('导航栏页签测试，并筛选出数据')
@@ -39,11 +39,11 @@ class TestCase():
 
     @allure.story('日志文章数据测试')
     def testcase5(self):
-        self.home.goto_journal().goto_complete(13)
+        self.home.goto_journal().goto_complete(17)
 
     @allure.story('动态数据测试核对')
     def testcase6(self):
-       self.home.goto_journal().goto_dynamic().goto_V_date(25)
+       self.home.goto_journal().goto_dynamic().goto_V_date(30)
 
     @allure.story('关于我留言模块功能测试')
     @pytest.mark.parametrize('name,mailbox,url,msg',[('小小','1607187254@qq.com','www.baidu','最近没看到你更新博客'),('','1607187254@qq.com','www.baidu','博主很帅'),

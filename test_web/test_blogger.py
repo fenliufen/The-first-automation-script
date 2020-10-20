@@ -35,7 +35,6 @@ class TestCase():
         allure.attach.file(f'./result/{c}.png', f'{c}.png', attachment_type=allure.attachment_type.PNG)
 
 
-
     @allure.story('一键返回顶部事件')
     def testcase4(self):
         self.home.goto_slide(200,2000)
@@ -44,7 +43,6 @@ class TestCase():
     @allure.story('日志文章数据测试')
     def testcase5(self):
         self.home.goto_journal().goto_complete(17)
-
 
     @allure.story('动态数据测试核对')
     def testcase6(self):
@@ -56,7 +54,6 @@ class TestCase():
      ('小小','1607187254.com','www.baidu','最近没看到你更新博客')])
     def testcase7(self,name,mailbox,url,msg):
       self.home.goto_journal().goto_dynamic().goto_v_about().goto_about_msg(name,mailbox,url,msg)
-
 
 
     @allure.story('友情链接功能测试')

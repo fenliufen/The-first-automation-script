@@ -3,6 +3,8 @@ from .page.home import Home
 import allure
 import pytest
 
+
+
 @allure.feature('个人博客测试用例执行情况')
 class TestCase():
 
@@ -10,8 +12,10 @@ class TestCase():
         self.home=Home()
         self.base=Base()
 
+
     def teardown_class(self):
         self.base.close()
+
 
     @pytest.mark.parametrize('a,b',[('测试','网站测试'),('网站开发','网站开发'),('系统','操作系统'),('程序算法','程序算法')])
     @allure.story('模糊查询相关的数据并且断言')
@@ -41,9 +45,10 @@ class TestCase():
     def testcase5(self):
         self.home.goto_journal().goto_complete(17)
 
+
     @allure.story('动态数据测试核对')
     def testcase6(self):
-       self.home.goto_journal().goto_dynamic().goto_V_date(30)
+       self.home.goto_journal().goto_dynamic().goto_V_date(29)
 
     @allure.story('关于我留言模块功能测试')
     @pytest.mark.parametrize('name,mailbox,url,msg',[('小小','1607187254@qq.com','www.baidu','最近没看到你更新博客'),('','1607187254@qq.com','www.baidu','博主很帅'),

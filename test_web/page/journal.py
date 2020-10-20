@@ -11,6 +11,7 @@ class Journal(Base):
       sleep(1)
       list = self.webdriver.find_elements_by_css_selector('.list li')
       lens = len(list)
+      assert lens==val
       if lens==val:
           print(f'现在日志文章总共有{lens}条数据,数据一致')
       else:

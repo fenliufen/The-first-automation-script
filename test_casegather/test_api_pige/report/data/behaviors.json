@@ -1,0 +1,43 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "api测试",
+    "children" : [ {
+      "name" : "添加部门",
+      "children" : [ {
+        "name" : "testcase1",
+        "uid" : "e252874e41f8d170",
+        "parentUid" : "b7f21d636c105c80f921e03c000b4c84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601388119370,
+          "stop" : 1601388119989,
+          "duration" : 619
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b7f21d636c105c80f921e03c000b4c84"
+    }, {
+      "name" : "测试函数",
+      "children" : [ {
+        "name" : "test_testcase2",
+        "uid" : "1e67030824d306a9",
+        "parentUid" : "e484ec0c06f3737a9a02d9a4eec50f91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601388120205,
+          "stop" : 1601388120206,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e484ec0c06f3737a9a02d9a4eec50f91"
+    } ],
+    "uid" : "80ce6c14811cf8b03240cac96ec71a07"
+  } ]
+}

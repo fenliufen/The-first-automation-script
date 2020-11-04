@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Sep 29 22:02:00 CST 2020","Tue Sep 29 22:02:00 CST 2020","1","","test_apics","TestCase","","","test_testcase2",""
+"passed","Tue Sep 29 22:01:59 CST 2020","Tue Sep 29 22:01:59 CST 2020","619","","test_apics","TestCase","","","testcase1",""

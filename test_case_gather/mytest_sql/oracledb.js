@@ -5,7 +5,7 @@ var query = function(sql,callback){
         {
             user          : "BMS",
             password      : "BMS67194#$sit2",
-            connectString : "lmsdbsit2.midea.com:1622/lmssit2"
+            connectString : ""
         },
         function (err, connection)
         {

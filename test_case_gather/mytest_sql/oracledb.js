@@ -3,8 +3,8 @@ const oracledb = require('oracledb');
 var query = function(sql,callback){
     oracledb.getConnection(
         {
-            user          : "BMS",
-            password      : "BMS67194#$sit2",
+            user          : "",
+            password      : "",
             connectString : ""
         },
         function (err, connection)

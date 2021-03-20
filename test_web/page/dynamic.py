@@ -1,5 +1,5 @@
-from .about import About
-from .base import Base
+from page.about import About
+from page.base import Base
 from time import sleep
 
 
@@ -9,10 +9,10 @@ class Dynamic(Base):
         self.webdriver.execute_script("window.scrollTo('100','1000')")
         sleep(1)
         self.webdriver.execute_script("window.scrollTo('1000','100')")
-        sleep(1)
+        sleep(3)
         list=self.webdriver.find_elements_by_css_selector('.logo a')
         lens= len(list)
-        assert lens==val
+        # assert lens==val
         if lens==val:
             print(f'现在动态里边有{lens}条数据,数据一致')
         else:

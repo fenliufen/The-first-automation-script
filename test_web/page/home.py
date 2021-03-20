@@ -1,7 +1,7 @@
-from .base import Base
+from page.base import Base
 from selenium.webdriver.common.by import By
 from time import sleep
-from .journal import Journal
+from page.journal import Journal
 
 
 class Home(Base):
@@ -29,7 +29,7 @@ class Home(Base):
             for i in list:
                 text = i.text
                 if val in text:
-                    print('数据一致')
+                    pass
         return self
 
 
@@ -38,9 +38,10 @@ class Home(Base):
     def goto_complete(self,val):
         li = self.webdriver.find_elements_by_css_selector('.daohang-list li')
         li[0].click()
-        sleep(1)
+        sleep(2)
         list=self.webdriver.find_elements_by_css_selector('.list li')
         lens=len(list)
+        print(f"现在首页全部数据有{lens}条")
         assert lens==val
         return self
 
@@ -60,7 +61,7 @@ class Home(Base):
             for i in list:
                 text = i.text
                 if val in text:
-                    print('数据一致')
+                    pass
 
         return self
 
@@ -75,6 +76,14 @@ class Home(Base):
         self.webdriver.find_element_by_css_selector('#gotop').click()
         print('滑动滚动条，并且一键返回顶部')
         return self
+
+
+
+
+    def close(self):
+        self.webdriver.quit()
+
+
 
 
 

@@ -1,7 +1,8 @@
-from .tools import get_root_dir
 from selenium import  webdriver
 from  selenium.webdriver.remote.webdriver import WebDriver
 import sys
+from page.tools import get_root_dir
+
 sys.path.append(get_root_dir())
 
 
@@ -25,8 +26,3 @@ class Base:
 
         if self.base_url!='':
             self.webdriver.get(self.base_url)
-
-
-    def close(self):
-        self.webdriver.quit()
-

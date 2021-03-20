@@ -1,5 +1,5 @@
 from selenium.common.exceptions import NoAlertPresentException
-from .base import Base
+from page.base import Base
 from time import sleep
 
 class Friendship(Base):
@@ -12,7 +12,7 @@ class Friendship(Base):
         self.webdriver.find_element_by_css_selector('.list_show textarea').send_keys(msgtext)
         self.webdriver.find_element_by_css_selector('.but').click()
 
-        # 断言，存在alert处理alert，没有alert就往下走
+        # 异常捕获，存在alert处理alert，没有alert就往下走
         try:
             sleep(1)
             alert = self.webdriver.switch_to_alert()

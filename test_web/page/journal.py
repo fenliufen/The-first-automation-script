@@ -1,6 +1,6 @@
 from time import sleep
-from .base import Base
-from .dynamic import Dynamic
+from page.base import Base
+from page.dynamic import Dynamic
 
 
 class Journal(Base):

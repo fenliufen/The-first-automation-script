@@ -33,11 +33,12 @@ class Test_Case():
     def test_case1(self):
         #爬取图片url
         list= []
-        for i in range(1,8):
+        for i in range(1,20):
             url1=f"https://8xhjdj.xyz/html/category/photo/list_7_{i}.html"
             url2=f"http://article.photofans.cn/vision/gallery/beauty/?page={i}"
-            res=self.s.get(url2).text
-            pic_url = re.findall('<img src="http://.*?\.jpg"', res, re.S)
+            url3=f"https://sc.chinaz.com/tupian/meihuatupian_{i}.html"
+            res=self.s.get(url1).text
+            pic_url = re.findall('<img src="https://.*?\.jpg"', res, re.S)
             with open('picture.txt', 'a+') as f:
                 for p in pic_url:
                     # lstrip():去掉字符串左边的(头部)
@@ -148,8 +149,9 @@ class Test_Case():
 
         # 去重复
         for e in list:
-            if e not in list1:
-                list1.append(e)
+            if e !="":
+                if e not in list1:
+                    list1.append(e)
 
 
         # 将网页中的视频下载至文件夹

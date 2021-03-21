@@ -4,6 +4,7 @@ import os
 import re
 import time
 import ssl
+import random
 
 
 
@@ -32,10 +33,10 @@ class Test_Case():
     def test_case1(self):
         #爬取图片url
         list= []
-        for i in range(5,7):
+        for i in range(1,8):
             url1=f"https://8xhjdj.xyz/html/category/photo/list_7_{i}.html"
             url2=f"http://article.photofans.cn/vision/gallery/beauty/?page={i}"
-            res=self.s.get(url1).text
+            res=self.s.get(url2).text
             pic_url = re.findall('<img src="http://.*?\.jpg"', res, re.S)
             with open('picture.txt', 'a+') as f:
                 for p in pic_url:
@@ -57,13 +58,14 @@ class Test_Case():
                 else:
                     list.append(i.rstrip("\n"))
 
+
             #去重复
             for e in list:
-                for e in list:
+                if e!="":
                     if e not in list1:
-                        list1.append(e)
+                       list1.append(e)
 
-
+            print(list1)
             # 将网页中的图片下载至文件夹
             for i in range(len(list1)):
 
@@ -72,7 +74,7 @@ class Test_Case():
                 if not os.path.exists(img):
                     os.mkdir(img)
                 else:
-                    filename = f"{img}{str(i)}.png"
+                    filename = f"{img}{str(random.randint(111111,999999))}.png"
                     pic = list1[i]
                     # 下载图片至本地文件夹
                     urlretrieve(pic, filename)
@@ -82,7 +84,7 @@ class Test_Case():
     def test_case3(self):
         #爬取网页视频链接
         list= []
-        for i in range(10,12):
+        for i in range(12,15):
             url1 = f"https://8xhjdj.xyz/html/category/video/video1/page_{i}.html"
             res = self.s.get(url1).text
             pic_url1=re.findall('<a href="/html/4.*?\/"', res, re.S)
@@ -93,8 +95,9 @@ class Test_Case():
                     # lstrip():去掉字符串左边的(头部)
                     url = p.lstrip('<a href="').rstrip('"')
                     list.append(url)
-                    print(url)
                     f.write("https://8xhjdj.xyz"+url + '\n')
+
+
 
 
 
@@ -155,6 +158,6 @@ class Test_Case():
             if not os.path.exists(mp4):
                 os.mkdir(mp4)
             else:
-                filename = f"{mp4}{str(i)}.mp4"
+                filename = f"{mp4}{str(random.randint(111111,999999))}.mp4"
                 pic = list1[i]
                 urlretrieve(pic, filename)

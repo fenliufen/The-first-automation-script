@@ -1,0 +1,113 @@
+{
+  "uid" : "2deccde1d6fbdee1",
+  "name" : "模糊查询相关的数据并且断言",
+  "fullName" : "test_blogger.TestCase#testcase1",
+  "historyId" : "a2958c9dbbb385aa5c4d94ad759a78e6",
+  "time" : {
+    "start" : 1616147148698,
+    "stop" : 1616147152674,
+    "duration" : 3976
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCase",
+    "time" : {
+      "start" : 1616147147172,
+      "stop" : 1616147148697,
+      "duration" : 1525
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d3445d5357e428fb",
+      "name" : "网站测试.png",
+      "source" : "d3445d5357e428fb.png",
+      "type" : "image/png",
+      "size" : 728610
+    }, {
+      "uid" : "66ccb9288a8ac490",
+      "name" : "stdout",
+      "source" : "66ccb9288a8ac490.txt",
+      "type" : "text/plain",
+      "size" : 174
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCase::0",
+    "time" : {
+      "start" : 1616147369845,
+      "stop" : 1616147371865,
+      "duration" : 2020
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "个人博客测试用例执行情况"
+  }, {
+    "name" : "suite",
+    "value" : "test_blogger"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-BO2NR112"
+  }, {
+    "name" : "thread",
+    "value" : "12788-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_blogger"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "'测试'"
+  }, {
+    "name" : "b",
+    "value" : "'网站测试'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2deccde1d6fbdee1.json",
+  "parameterValues" : [ "'测试'", "'网站测试'" ]
+}

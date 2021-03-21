@@ -1,0 +1,325 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_blogger",
+    "children" : [ {
+      "name" : "TestCase",
+      "children" : [ {
+        "name" : "模糊查询相关的数据并且断言",
+        "uid" : "2deccde1d6fbdee1",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147148698,
+          "stop" : 1616147152674,
+          "duration" : 3976
+        },
+        "flaky" : false,
+        "parameters" : [ "'测试'", "'网站测试'" ]
+      }, {
+        "name" : "模糊查询相关的数据并且断言",
+        "uid" : "e6ea8fd91dd2dea3",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147152678,
+          "stop" : 1616147157307,
+          "duration" : 4629
+        },
+        "flaky" : false,
+        "parameters" : [ "'网站开发'", "'网站开发'" ]
+      }, {
+        "name" : "模糊查询相关的数据并且断言",
+        "uid" : "1e9ebeb2ccc4d8aa",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147157311,
+          "stop" : 1616147161036,
+          "duration" : 3725
+        },
+        "flaky" : false,
+        "parameters" : [ "'系统'", "'操作系统'" ]
+      }, {
+        "name" : "模糊查询相关的数据并且断言",
+        "uid" : "17c92b96493adebd",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147161041,
+          "stop" : 1616147174939,
+          "duration" : 13898
+        },
+        "flaky" : false,
+        "parameters" : [ "'程序算法'", "'程序算法'" ]
+      }, {
+        "name" : "点击全部文章，并筛选出数据",
+        "uid" : "9c2aaf277b03931a",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147174944,
+          "stop" : 1616147178019,
+          "duration" : 3075
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "导航栏页签测试，并筛选出数据",
+        "uid" : "7370e50d475bce95",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147178023,
+          "stop" : 1616147179887,
+          "duration" : 1864
+        },
+        "flaky" : false,
+        "parameters" : [ "1", "'网站测试'" ]
+      }, {
+        "name" : "导航栏页签测试，并筛选出数据",
+        "uid" : "1495ca97ad66ac60",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147179892,
+          "stop" : 1616147181547,
+          "duration" : 1655
+        },
+        "flaky" : false,
+        "parameters" : [ "2", "'网站开发'" ]
+      }, {
+        "name" : "导航栏页签测试，并筛选出数据",
+        "uid" : "d17581351cc682ab",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147181551,
+          "stop" : 1616147183218,
+          "duration" : 1667
+        },
+        "flaky" : false,
+        "parameters" : [ "3", "'操作系统'" ]
+      }, {
+        "name" : "导航栏页签测试，并筛选出数据",
+        "uid" : "2d4895800b04b8ef",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147183223,
+          "stop" : 1616147195030,
+          "duration" : 11807
+        },
+        "flaky" : false,
+        "parameters" : [ "4", "'深度学习'" ]
+      }, {
+        "name" : "导航栏页签测试，并筛选出数据",
+        "uid" : "f6ab3103dd2ae8fc",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147195035,
+          "stop" : 1616147206858,
+          "duration" : 11823
+        },
+        "flaky" : false,
+        "parameters" : [ "5", "'程序算法'" ]
+      }, {
+        "name" : "导航栏页签测试，并筛选出数据",
+        "uid" : "980fc77b964320af",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147206864,
+          "stop" : 1616147218679,
+          "duration" : 11815
+        },
+        "flaky" : false,
+        "parameters" : [ "6", "'其他'" ]
+      }, {
+        "name" : "一键返回顶部事件",
+        "uid" : "5eca8779229550ce",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147218683,
+          "stop" : 1616147223060,
+          "duration" : 4377
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "日志文章数据测试",
+        "uid" : "58dc7984b1103c99",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147223063,
+          "stop" : 1616147224714,
+          "duration" : 1651
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "动态数据测试核对",
+        "uid" : "104593cc124dfb27",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147224719,
+          "stop" : 1616147230024,
+          "duration" : 5305
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "关于我留言模块功能测试",
+        "uid" : "49bfd0e189212095",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147236099,
+          "stop" : 1616147240344,
+          "duration" : 4245
+        },
+        "flaky" : false,
+        "parameters" : [ "'1607187254@qq.com'", "'最近没看到你更新博客'", "'小小'", "'www.baidu'" ]
+      }, {
+        "name" : "关于我留言模块功能测试",
+        "uid" : "2d3c7b027fdea93",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147240351,
+          "stop" : 1616147243468,
+          "duration" : 3117
+        },
+        "flaky" : false,
+        "parameters" : [ "'1607187254@qq.com'", "'博主很帅'", "''", "'www.baidu'" ]
+      }, {
+        "name" : "关于我留言模块功能测试",
+        "uid" : "bafe3705b3ee2ffe",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147255590,
+          "stop" : 1616147258680,
+          "duration" : 3090
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'最近没看到你更新博客'", "'小小'", "'www.baidu'" ]
+      }, {
+        "name" : "关于我留言模块功能测试",
+        "uid" : "9c30601be8f3698c",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147258689,
+          "stop" : 1616147267351,
+          "duration" : 8662
+        },
+        "flaky" : false,
+        "parameters" : [ "'1607187254@qq.com'", "''", "'小小'", "'www.baidu'" ]
+      }, {
+        "name" : "关于我留言模块功能测试",
+        "uid" : "65c53e288a0fbc8e",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147267359,
+          "stop" : 1616147277536,
+          "duration" : 10177
+        },
+        "flaky" : false,
+        "parameters" : [ "'1607187254@qq.com'", "'最近没看到你更新博客'", "'小宏'", "''" ]
+      }, {
+        "name" : "关于我留言模块功能测试",
+        "uid" : "d665eeab5e8b36c",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147277541,
+          "stop" : 1616147280672,
+          "duration" : 3131
+        },
+        "flaky" : false,
+        "parameters" : [ "'1607187254.com'", "'最近没看到你更新博客'", "'小小'", "'www.baidu'" ]
+      }, {
+        "name" : "友情链接功能测试",
+        "uid" : "97a254422625d68e",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147280680,
+          "stop" : 1616147293569,
+          "duration" : 12889
+        },
+        "flaky" : false,
+        "parameters" : [ "'1607187254@qq.com'", "'1'", "'https://www.baidu.com/'", "''" ]
+      }, {
+        "name" : "友情链接功能测试",
+        "uid" : "76ede425a65c2f1a",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147293579,
+          "stop" : 1616147308433,
+          "duration" : 14854
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'1'", "'https://www.baidu.com/'", "'博客园官网'" ]
+      }, {
+        "name" : "友情链接功能测试",
+        "uid" : "bc491e6b305b7368",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147308443,
+          "stop" : 1616147321221,
+          "duration" : 12778
+        },
+        "flaky" : false,
+        "parameters" : [ "'1607187254@qq.com'", "'1'", "''", "''" ]
+      }, {
+        "name" : "友情链接功能测试",
+        "uid" : "ef3c25a44e7ec798",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147321230,
+          "stop" : 1616147347114,
+          "duration" : 25884
+        },
+        "flaky" : false,
+        "parameters" : [ "'1607187254@qq.com'", "''", "'https://www.baidu.com/'", "'博客园官网'" ]
+      }, {
+        "name" : "友情链接功能测试",
+        "uid" : "b92fbad1824e850",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147347119,
+          "stop" : 1616147353830,
+          "duration" : 6711
+        },
+        "flaky" : false,
+        "parameters" : [ "'1607187254@.com'", "'1'", "'https://www.baidu.com/'", "'博客园官网'" ]
+      }, {
+        "name" : "友情链接功能测试",
+        "uid" : "46c4dc2bff61aae",
+        "parentUid" : "027d9d0cdbd2492edba85dd6236c7c77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616147361941,
+          "stop" : 1616147369842,
+          "duration" : 7901
+        },
+        "flaky" : false,
+        "parameters" : [ "'1607187254@qq.com'", "'1'", "'https://www.baidu.com/'", "'博客园官网'" ]
+      } ],
+      "uid" : "027d9d0cdbd2492edba85dd6236c7c77"
+    } ],
+    "uid" : "6106a5f5332d2099c252c99170e0b026"
+  } ]
+}

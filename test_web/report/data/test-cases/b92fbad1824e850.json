@@ -1,0 +1,83 @@
+{
+  "uid" : "b92fbad1824e850",
+  "name" : "友情链接功能测试",
+  "fullName" : "test_blogger.TestCase#testcase8",
+  "historyId" : "6672616026ad5384c9b18ff75a6d9512",
+  "time" : {
+    "start" : 1616147347119,
+    "stop" : 1616147353830,
+    "duration" : 6711
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "24922d1bc276fff7",
+      "name" : "stdout",
+      "source" : "24922d1bc276fff7.txt",
+      "type" : "text/plain",
+      "size" : 22
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "个人博客测试用例执行情况"
+  }, {
+    "name" : "suite",
+    "value" : "test_blogger"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-BO2NR112"
+  }, {
+    "name" : "thread",
+    "value" : "12788-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_blogger"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "mailbox",
+    "value" : "'1607187254@.com'"
+  }, {
+    "name" : "msgtext",
+    "value" : "'1'"
+  }, {
+    "name" : "url",
+    "value" : "'https://www.baidu.com/'"
+  }, {
+    "name" : "urlname",
+    "value" : "'博客园官网'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b92fbad1824e850.json",
+  "parameterValues" : [ "'1607187254@.com'", "'1'", "'https://www.baidu.com/'", "'博客园官网'" ]
+}

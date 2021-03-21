@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "6106a5f5332d2099c252c99170e0b026",
+    "name" : "test_blogger",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 26,
+      "unknown" : 0,
+      "total" : 26
+    }
+  } ]
+}

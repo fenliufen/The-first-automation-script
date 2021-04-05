@@ -1,7 +1,7 @@
 from selenium import  webdriver
 from  selenium.webdriver.remote.webdriver import WebDriver
 import sys
-from page.tools import get_root_dir
+from .tools import get_root_dir
 
 sys.path.append(get_root_dir())
 

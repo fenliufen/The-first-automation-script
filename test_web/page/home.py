@@ -50,18 +50,22 @@ class Home(Base):
     #点击标签除全部文章
     def goto_webtest(self,index,val):
         li = self.webdriver.find_elements_by_css_selector('.daohang-list li')
-        li[index].click()
-        list = self.webdriver.find_elements_by_css_selector('.iconfont1')
-        sleep(1)
-        self.webdriver.save_screenshot(f'./result/{index}.png')
-        if len(list)==0:
-            print('数据为空')
+        if li==[]:
+            print("没有定位到元素")
+            return
         else:
-            print(f'总共有{len(list)}数据')
-            for i in list:
-                text = i.text
-                if val in text:
-                    pass
+            li[index].click()
+            list = self.webdriver.find_elements_by_css_selector('.iconfont1')
+            sleep(1)
+            self.webdriver.save_screenshot(f'./result/{index}.png')
+            if len(list)==0:
+                print('数据为空')
+            else:
+                print(f'总共有{len(list)}数据')
+                for i in list:
+                    text = i.text
+                    if val in text:
+                        pass
 
         return self
 

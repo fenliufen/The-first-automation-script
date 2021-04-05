@@ -1,8 +1,7 @@
-from .page.base import Base
 from .page.home import Home
 import allure
 import pytest
-import csv
+
 
 
 @allure.feature('个人博客测试用例执行情况')

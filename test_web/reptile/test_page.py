@@ -36,25 +36,33 @@ class Test_Case():
         #爬取图片url
         #<img src="https://.*?\.jpg"  匹配图片正则
         list= []
-        for i in range(1,3):
+        for i in range(1,10):
             url1=f"https://8xhjdj.xyz/html/category/photo/list_7_{i}.html"
             url2=f"http://article.photofans.cn/vision/gallery/beauty/?page={i}"
             url3=f"http://article.photofans.cn/vision/?page={i}"
             res=self.s.get(url3).text
             pic_url = re.findall('<img src="http://.*?\.jpg"', res, re.S)
+            '''
+               如果没有匹配到数据则什么也不做，直接pass，如果查匹配
+               数据成功了，则进一步判断是否有data文件夹，没有则创建，
+               写入匹配的的数据，其他匹配也是同理。
+            '''
             if pic_url==[]:
                 pass
+
             else:
+                #判断文件夹是否为空，为空则创建文件夹
                 data = os.getcwd() + r"\data/"
                 if not os.path.exists(data):
                     os.mkdir(data)
-                else:
-                    with open(f'{data}img1.txt', 'a+') as f:
-                        for p in pic_url:
-                            # lstrip():去掉字符串左边的头部rstrip()去掉右半的头部
-                            url =p.lstrip('<img src="').rstrip('"')
-                            list.append(url)
-                            f.write(url + '\n')
+
+                #写入匹配到的数据
+                with open(f'{data}img1.txt', 'a+') as f:
+                    for p in pic_url:
+                        # lstrip():去掉字符串左边的头部rstrip()去掉右半的头部
+                        url =p.lstrip('<img src="').rstrip('"')
+                        list.append(url)
+                        f.write(url + '\n')
 
 
 
@@ -76,26 +84,26 @@ class Test_Case():
                     if e not in list1:
                        list1.append(e)
 
-            #print(list1)
 
             #将网页中的图片下载至文件夹
             for i in range(len(list1)):
+
                 #返回当前路径
                 img=os.getcwd() + r"\img/"
                 if not os.path.exists(img):
                     os.mkdir(img)
-                else:
-                    filename = f"{img}{str(random.randint(111111,999999))}.png"
-                    pic = list1[i]
-                    # 下载图片至本地文件夹
-                    urllib.request.urlretrieve(pic,filename)
+
+                filename = f"{img}{i}.jpg"
+                pic = list1[i]
+                # 下载图片至本地文件夹
+                urllib.request.urlretrieve(pic,filename)
 
 
 
     def test_case3(self):
         #爬取网页视频链接
         list= []
-        for i in range(5,6):
+        for i in range(1,3):
             url1 = f"https://8x01x5.xyz/html/other/index_21_{i}.html"
             res = self.s.get(url1).text
             pic_url1=re.findall('<a href="/html/4.*?\/"', res, re.S)
@@ -105,19 +113,20 @@ class Test_Case():
                 data = os.getcwd() + r"\data/"
                 if not os.path.exists(data):
                     os.mkdir(data)
-                else:
-                    with open(f'{data}pictures.txt', 'a+') as f:
-                        for p in pic_url1:
-                            # lstrip():去掉字符串左边的(头部)
-                            url = p.lstrip('<a href="').rstrip('"')
-                            list.append(url)
-                            f.write("https://8xhjdj.xyz"+url + '\n')
+
+                with open(f'{data}pictures.txt', 'a+') as f:
+                    for p in pic_url1:
+                         # lstrip():去掉字符串左边的(头部)
+                        url = p.lstrip('<a href="').rstrip('"')
+                        list.append(url)
+                        f.write("https://8xhjdj.xyz"+url + '\n')
 
 
 
 
 
     def test_case4(self):
+
         #读取网页视频页面的url
         with open('data/pictures.txt', 'r') as f:
             list = []
@@ -140,15 +149,16 @@ class Test_Case():
             pic_url1 = re.findall('<a href="https://ppp.downloadxx.com/assets/.*?\.mp4"', res, re.S)
             if pic_url1==[]:
                 pass
+
             else:
                 url=pic_url1[0].lstrip('<a href="').rstrip('"')
                 data = os.getcwd() + r"\data/"
                 if not os.path.exists(data):
                     os.mkdir(data)
-                else:
+
                 #把匹配到的视频下载链接写进文件
-                    with open(f'{data}mp4.txt', 'a+') as f:
-                        f.write("h"+url + '\n')
+                with open(f'{data}mp4.txt', 'a+') as f:
+                    f.write("h"+url + '\n')
 
 
 
@@ -177,10 +187,13 @@ class Test_Case():
             mp4 = os.getcwd() + r"\mp4/"
             if not os.path.exists(mp4):
                 os.mkdir(mp4)
-            else:
-                filename = f"{mp4}{str(random.randint(111111,999999))}.mp4"
-                pic = list1[i]
-                urllib.request.urlretrieve(pic, filename)
+
+            #下载视频文件
+            filename = f"{mp4}{i}.mp4"
+            pic = list1[i]
+            urllib.request.urlretrieve(pic, filename)
+
+
 
 
 
@@ -200,12 +213,12 @@ class Test_Case():
                 data = os.getcwd() + r"\data/"
                 if not os.path.exists(data):
                     os.mkdir(data)
-                else:
-                    with open('../reptile/data/img2.txt', 'a+') as f:
-                        for p in pic_url:
-                            # lstrip():去掉字符串左边的(头部) rstrip去掉右边的头部
-                            url = p.lstrip('<img src="').rstrip('"')
-                            f.write("https:"+url + '\n')
+
+                with open('../reptile/data/img2.txt', 'a+') as f:
+                    for p in pic_url:
+                        # lstrip():去掉字符串左边的(头部) rstrip去掉右边的头部
+                        url = p.lstrip('<img src="').rstrip('"')
+                        f.write("https:"+url + '\n')
 
 
 
@@ -226,13 +239,13 @@ class Test_Case():
                 data = os.getcwd() + r"\data/"
                 if not os.path.exists(data):
                     os.mkdir(data)
-                else:
-                    with open('../reptile/data/img3.txt', 'a+') as f:
-                        for p in pic_url:
-                            # lstrip():去掉字符串左边的(头部) rstrip去掉右边的头部
-                            url = p.lstrip('<a href="').rstrip('"')
-                            print(url)
-                            f.write("https://www.ivsky.com"+url + '\n')
+
+                with open('data/img3.txt', 'a+') as f:
+                    for p in pic_url:
+                        # lstrip():去掉字符串左边的(头部) rstrip去掉右边的头部
+                        url = p.lstrip('<a href="').rstrip('"')
+                        print(url)
+                        f.write("https://www.ivsky.com"+url + '\n')
 
 
 
@@ -240,7 +253,7 @@ class Test_Case():
     #每次进点击a标签筛选图片地址
     def test_case8(self):
         # 读取网页img的url
-        with open('../reptile/data/img3.txt', 'r') as f:
+        with open('data/img3.txt', 'r') as f:
             list = []
             list1 = []
             for i in f:
@@ -266,17 +279,17 @@ class Test_Case():
                 data = os.getcwd() + r"\data/"
                 if not os.path.exists(data):
                     os.mkdir(data)
-                else:
-                    # 把匹配到的图片url下载链接写进文件
-                    with open(f'{data}img4.txt', 'a+') as f:
-                        f.write("https:" + url + '\n')
+
+                # 把匹配到的图片url下载链接写进文件
+                with open(f'{data}img4.txt', 'a+') as f:
+                    f.write("https:" + url + '\n')
 
 
 
     #把匹配到的图片下载到本地
     def test_case9(self):
         # 下载图片
-        with open('../reptile/data/img4.txt', 'r') as f:
+        with open('data/img4.txt', 'r') as f:
             list = []
             list1 = []
             for i in f:
@@ -298,10 +311,7 @@ class Test_Case():
                 img = os.getcwd() + r"\img/"
                 if not os.path.exists(img):
                     os.mkdir(img)
-                else:
-                    filename = f"{img}{str(random.randint(111111, 999999))}.png"
-                    pic = list1[i]
-                    # 下载图片至本地文件夹
-                    urllib.request.urlretrieve(pic, filename)
-
-
+                filename = f"{img}{i}.png"
+                pic = list1[i]
+                # 下载图片至本地文件夹
+                urllib.request.urlretrieve(pic, filename)
